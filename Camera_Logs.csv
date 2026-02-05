@@ -1,0 +1,5 @@
+Log_Timestamp,Plate_Detected,Camera_ID,Confidence
+2026-02-05 08:00:12,AP16BF1234,North_Gate,0.98
+2026-02-05 08:15:45,UP14ZZ0001,North_Gate,0.92
+2026-02-05 09:05:22,TS09EE9999,South_Exit,0.99
+2026-02-05 10:30:10,DL3CAN8888,Main_Entry,0.85
