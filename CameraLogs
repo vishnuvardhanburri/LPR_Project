@@ -1,0 +1,7 @@
+// Place this at the start of your query to get the current folder path
+let
+    SourceFolder = Left(Cells{0}[Column1], Text.PositionOf(Cells{0}[Column1], "\", Occurrence.Last) + 1),
+    // Then use SourceFolder in your File.Contents:
+    Data = Csv.Document(File.Contents(SourceFolder & "data\Camera_Logs.csv"), [Delimiter=","])
+in
+    Data
